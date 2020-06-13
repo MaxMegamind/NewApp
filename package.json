@@ -1,1 +1,10 @@
-{"main": "dist","private": true,"scripts": {"test": "npm run build && npm run lint","lint": "tslint --project . -t verbose","build": "tsc -p .","watch": "tsc -p . -w --preserveWatchOutput                     --inlineSourceMap","start": "tabris serve -a -w" },"dependencies": {"tabris": "~3.0.0" },"devDependencies": {"tslint": "^5.16.0","typescript": "~3.3.4000" }}
+{
+  // ...
+  "main": "src/app.js",
+  "dependencies": {
+    "tabris": "^3.0.0",
+    "left-pad": "^1.1.3",
+    // ...
+  }
+  // ...
+}
